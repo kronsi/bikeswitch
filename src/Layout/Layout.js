@@ -287,12 +287,12 @@ class Layout extends React.Component {
                         <Grid item xs={4} className="PartnerStates">
                             <div className="PartnerStatesHeader">Onfleet</div>
                             <div className="PartnerStatesSubHeader">Lieferungs-Management Software</div>
-                            <div className="">Verwaltung und Analyse lokaler Lieferungen inkl. Kunden- und Operations-Management</div>
+                            <div className="PartnerSecondary-text">Verwaltung und Analyse lokaler Lieferungen inkl. Kunden- und Operations-Management</div>
                         </Grid>
                         <Grid item xs={4} className="PartnerStates">
                             <div className="PartnerStatesHeader">CleverCargo</div>
                             <div className="PartnerStatesSubHeader">E-Lastenrad Lieferservice</div>
-                            <div className="">On-Demand Kurier Pooling-Dienst mit eigener E-Lastenrad Flotte in deiner Stadt</div>
+                            <div className="PartnerSecondary-text">On-Demand Kurier Pooling-Dienst mit eigener E-Lastenrad Flotte in deiner Stadt</div>
                         </Grid>
                     </Grid>
                     <Grid container className="Footer">
