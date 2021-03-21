@@ -149,17 +149,17 @@ class Layout extends React.Component {
                                 <Grid container spacing={0}>
                                     <Grid item xs={4}>
                                         <Link className="About" href="#">
-                                            About
+                                            Rechner
                                         </Link>
                                     </Grid>
                                     <Grid item xs={4}>
                                         <Link className="Services" href="#">
-                                            Services
+                                            Verzeichnis
                                         </Link>
                                     </Grid>
                                     <Grid item xs={4}>
                                         <Link className="Contact" href="#">
-                                            Contact
+                                            Beratung
                                         </Link>
                                     </Grid>
                                 </Grid>
@@ -169,10 +169,10 @@ class Layout extends React.Component {
                     <Grid container spacing={0} className="calculatorContainer">
                         <Grid item xs={7} className="calculatorLeft">                            
                             <Typography variant="h4" className="Test-your-savings-wi">
-                                Test your savings with a cargo bike!
+                                Dein Einsparungspotenzial mit E-Lastenrädern
                             </Typography>
                             <Typography variant="subtitle1" gutterBottom className="Your-amount-of-daily" >
-                                Your amount of daily stops
+                                Wie viele Zielpunkte fährst du täglich an?
                             </Typography>
                             <Grid container >
                                 
@@ -189,7 +189,7 @@ class Layout extends React.Component {
                             <Grid container >
                                 <Grid item xs={12}>
                                     <Typography variant="subtitle1" gutterBottom className="Your-current-vehicle" >
-                                        Your current vehicle
+                                        Welchen Fahrzeugtypen nutzt du?
                                     </Typography>
                                 </Grid>
                             </Grid>
@@ -229,35 +229,35 @@ class Layout extends React.Component {
                     </Grid>
                     <Grid container>
                         <Grid item xs={12} className="Why-should-you">
-                            [3001]Why should you use a cargo bike?
+                            Informations- und Beratungsangebot für deinen Umstieg
                         </Grid>
                         <Grid item xs={12} className="Quae-fuerit-ca">
-                            [3002]Quae fuerit causa, mox videro; interea hoc tenebo, si mihi probabis ea, quae sine metu degendae praesidia firmissima filium morte multavit si sine metu degendae praesidia firmissima filium morte multavit si sine metu contineret, saluti prospexit civium, qua intellegebat contineri suam atque admonitionem altera occulta.
+                            Auslieferungen mit dem E-Lastenrand sind im urbanen Raum nicht nur nachhaltig sondern auch wirtschaftlich. Um die Barrieren und Umstellungskosten, die mit dem Ein- und Umstieg auf eine Fahrrad-Flotte verbunden werden zu reduzieren, bündelt bikeswitch das nötige Wissen und stellt alle Beratungsangebote der Stadt Hamburg für Unternehmen dar. 
                         </Grid>
                     </Grid>
                     <Grid container className="ProfitContainer">
                         <Grid item xs={4}>
                             <Typography variant="h4" gutterBottom className="Profit" >
-                                Test
+                                Einsparungsrechner
                             </Typography>
                             <div>
-                            [3008]Quae fuerit causa, mox videro; interea hoc tenebo, si mihi probabis ea, quae sine metu degendae praesidia
+                            Berechne Kosten- und CO2-Ersparnisse und finde heraus, ob sich der Umstieg für dich wirtschaftlich und nachhaltig lohnt.
                             </div>
                         </Grid>
                         <Grid item xs={4} >
                             <Typography variant="h4" gutterBottom className="Profit" >
-                                Test
+                                Firmenverzeichnis
                             </Typography>
                             <div>
-                            [3008]Quae fuerit causa, mox videro; interea hoc tenebo, si mihi probabis ea, quae sine metu degendae praesidia
+                            Vom passenden Fahrrad zum smarten Routenplaner: entdecke passende Lösungen, um deinen Umstieg effizient umzusetzen.
                             </div>
                         </Grid>
                         <Grid item xs={4} >
                             <Typography variant="h4" gutterBottom className="Profit" >
-                                Test
+                                Beratungsangebot
                             </Typography>
                             <div>
-                            [3008]Quae fuerit causa, mox videro; interea hoc tenebo, si mihi probabis ea, quae sine metu degendae praesidia
+                            Werde Vorreiter der Mobilitätswende und beschleunige deinen Umstieg mit Fördermitteln und Beratungsangeboten der Stadt Hamburg. 
                             </div>
                         </Grid>
                     </Grid>
