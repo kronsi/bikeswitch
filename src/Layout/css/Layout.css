@@ -1,0 +1,241 @@
+.About {
+    width: 56px;
+    height: 28px;
+    margin: 32.2px 48px 144px 56px;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+}
+
+.Services {
+    width: 80px;
+    height: 28px;
+    margin: 32.2px 48px 144px;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+.Rectangle {
+    width: 120px;
+    height: 40px;
+    margin: 27.2px 361px 137px 32px;
+    padding: 5px 23px 7px;
+    border-radius: 20px;
+    border: solid 2px #329b46;
+}
+
+.Contact {
+    width: 74px;
+    height: 28px;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #329b46;
+  }
+
+  .calculatorContainer{
+    height: 481px;
+    padding: 0 0 0 59.5px;
+    margin: 0px 361px 120px 27px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 16px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+  }
+
+  .calculatorLeft {
+    padding: 30px 0 0 0; 
+    text-align: left;
+  }
+
+  .calculatorRight {
+    width: 509px;
+    height: 481px;
+    margin: 0 0 0 114.5px;
+    padding: 64px 61px 72px 85px;
+    border-radius: 8px;
+    background-color: #329b46;
+  }
+  
+  .Test-your-savings-wi {
+    height: 43px;
+    margin: 36px 114.5px 80px 0;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    text-align: left;
+  }
+  
+
+  .Your-amount-of-daily {
+    width: 253px !important;
+    height: 28px !important;
+    margin: 80px 45px 12px 0.5px !important;
+    font-family: Roboto !important;
+    font-size: 21px !important;
+    font-weight: bold !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    color: #000000 !important;
+  }
+
+  .Track {
+    margin: 67.5px 182px 84.5px 0.5px;
+    padding: 0 293.4px 0 0;
+    
+    
+  }
+
+  .MuiSlider-root {
+    color: #329b46  !important;
+  }
+
+  .MuiSlider-thumb {
+    width: 32px;
+    height: 62px;
+    margin-top: -35px !important;
+    padding: 6px 7px 36px 8px;
+    background-color: #77c786;
+  }
+
+  .Your-current-vehicle {    
+    height: 28px !important;
+    margin: 50px 108px 16px 0.5px !important;
+    font-family: Roboto !important;
+    font-size: 21px !important;
+    font-weight: bold !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    color: #000000 !important;
+  }
+
+  .impact {
+    margin: 12px 0 10px 3px !important;
+    font-family: Roboto;
+    font-size: 60px !important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .CO2 {
+    margin: 0px 66px 70px 60px !important;
+    opacity: 0.5;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;    
+  }
+
+  .litEur {
+    margin: 16px 55px 4px 0;
+    font-family: Roboto;
+    font-size: 32px !important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .Why-should-you {
+    width: 740px;
+    height: 43px;
+    margin: 120px 23.7px 19px 22.3px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+
+  .Quae-fuerit-ca {
+    width: 895px;
+    height: 90px;
+    margin: 19px 513px 61.2px 179px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+
+ .ProfitContainer{
+  margin: 100px 0px;
+}
+
+  .Profit {
+    width: 382px;
+    height: 32px;
+    margin: 20.8px 21px 12px 27px;
+    font-family: Roboto !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    color: #000000 !important;
+  }
+
+  .Footer {    
+    height: 324px;
+    margin: 160px 0 0;    
+    color: #fff;
+    background-color: #000000;
+  }
+
+  .bikeswitchLogo2 {
+    margin-top: 100px;
+    background-color: #ffffff;
+  }
+
+  .Company {
+    padding: 100px;;
+    text-align: right;
+  }
+  
