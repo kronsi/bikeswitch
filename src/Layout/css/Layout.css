@@ -221,6 +221,75 @@
     text-align: center !important;
     color: #000000 !important;
   }
+  
+
+  .Our-partners {
+    width: 273px;
+    height: 43px;
+    margin: 160px 78.5px 40px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+
+  .PartnerStates {
+    width: 385px;
+    height: 150px;
+    margin: 80px 360px 160px 18px;
+    padding: 14px 0 0;
+    border-radius: 4px;
+    border: 0.1em solid #ccc;
+  }
+
+  .PartnerStatesHeader {    
+    height: 24px;
+    margin: 0 0px 1px 9px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: left;
+  }
+
+  .PartnerStatesSubHeader {
+    height: 20px;
+    margin: 0 0px 1px 9px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: left;
+  }
+
+  .PartnerSecondary-text {
+    height: 40px;
+    margin: 13px 10px 6px 9px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: left;
+  }
+  
+
 
   .Footer {    
     height: 324px;

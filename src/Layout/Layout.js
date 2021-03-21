@@ -87,6 +87,10 @@ class Layout extends React.Component {
         };
     }
 
+    onCommingSoon = () => {
+        alert("comming soon");
+    }
+
     onSliderChange = (event, newStops) => {
         this.setState({
             stops: newStops            
@@ -148,17 +152,17 @@ class Layout extends React.Component {
                             <Grid item xs={5}>
                                 <Grid container spacing={0}>
                                     <Grid item xs={4}>
-                                        <Link className="About" href="#">
+                                        <Link className="About" href="#" onClick={this.onCommingSoon}>
                                             Rechner
                                         </Link>
                                     </Grid>
                                     <Grid item xs={4}>
-                                        <Link className="Services" href="#">
+                                        <Link className="Services" href="#" onClick={this.onCommingSoon}>
                                             Verzeichnis
                                         </Link>
                                     </Grid>
                                     <Grid item xs={4}>
-                                        <Link className="Contact" href="#">
+                                        <Link className="Contact" href="#" onClick={this.onCommingSoon}>
                                             Beratung
                                         </Link>
                                     </Grid>
@@ -257,8 +261,38 @@ class Layout extends React.Component {
                                 Beratungsangebot
                             </Typography>
                             <div>
-                            Werde Vorreiter der Mobilitätswende und beschleunige deinen Umstieg mit Fördermitteln und Beratungsangeboten der Stadt Hamburg. 
+                            Werde Vorreiter der Mobilitätswende und beschleunige deinen Umstieg mit Fördermitteln und Beratungsangeboten der Stadt Hamburg.
                             </div>
+                        </Grid>
+                    </Grid>
+                    <Grid container className="ProfitContainer">
+                        <Grid item xs={12} className="Our-partners">
+                            Lösungen für eine effiziente Auslieferung
+                        </Grid>
+                    </Grid>
+                    <Grid container className="ProfitContainer">
+                        <Grid item xs={12} className="Our-partners">
+                            <ButtonGroup color="primary" aria-label="outlined primary button group">
+                                <Button>Hersteller</Button>
+                                <Button>Routenplaner</Button>                                
+                            </ButtonGroup>
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={3} className="ProfitContainer">
+                        <Grid item xs={4} className="PartnerStates">
+                            <div className="PartnerStatesHeader">Graphmasters</div>
+                            <div className="PartnerStatesSubHeader">KI-basierte Routenoptimierung</div>
+                            <div className="PartnerSecondary-text">Multistopp-Tourenoptimierung inkl. Ampelwartezeiten und Zugangsbeschränkungen</div>
+                        </Grid>
+                        <Grid item xs={4} className="PartnerStates">
+                            <div className="PartnerStatesHeader">Onfleet</div>
+                            <div className="PartnerStatesSubHeader">Lieferungs-Management Software</div>
+                            <div className="">Verwaltung und Analyse lokaler Lieferungen inkl. Kunden- und Operations-Management</div>
+                        </Grid>
+                        <Grid item xs={4} className="PartnerStates">
+                            <div className="PartnerStatesHeader">CleverCargo</div>
+                            <div className="PartnerStatesSubHeader">E-Lastenrad Lieferservice</div>
+                            <div className="">On-Demand Kurier Pooling-Dienst mit eigener E-Lastenrad Flotte in deiner Stadt</div>
                         </Grid>
                     </Grid>
                     <Grid container className="Footer">
